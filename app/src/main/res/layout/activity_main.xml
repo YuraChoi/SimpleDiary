@@ -11,8 +11,20 @@
     android:orientation="vertical">
 
     <DatePicker
+        android:id="@+id/data_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/data_picker"
-        android:/>
+        android:calendarViewShown="false"/>
+
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="8"/>
+    <Button
+        android:id="@+id/but_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_but"
+        android:enabled="false"/>
 </LinearLayout>
